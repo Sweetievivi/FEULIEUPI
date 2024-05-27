@@ -1,0 +1,27 @@
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #f8f9fa; /* Cor de fundo da barra de navegação */
+    padding: 10px 0; /* Espaçamento interno superior e inferior */
+}
+
+.navbar-brand {
+    font-size: 24px; /* Tamanho da fonte do logotipo */
+    font-weight: bold; /* Peso da fonte do logotipo */
+    color: #333; /* Cor do logotipo */
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px; /* Tamanho da fonte dos links */
+    color: #555; /* Cor dos links */
+    margin-right: 20px; /* Espaçamento à direita entre os links */
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold; /* Peso da fonte para o link ativo */
+    color: #007bff; /* Cor do link ativo */
+}
+
+.navbar-nav .nav-link.disabled {
+    color: #ccc; /* Cor dos links desabilitados */
+    pointer-events: none; /* Impede que os links desabilitados sejam clicáveis */
+}
